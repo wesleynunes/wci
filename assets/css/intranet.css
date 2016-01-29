@@ -1,0 +1,473 @@
+html{
+  font: 75% 'Lucida Sans Unicode','Lucida Grande',arial,helvetica,sans-serif;
+}
+
+body, .btn-group > .btn, .btn-group > .dropdown-menu {
+  font-size: 12px;
+}
+
+.dropdown-menu {
+  z-index: 999;
+}
+
+.btn-large [class^="icon-"] {
+  margin-top: 0;
+}
+
+.nav-list .active > a {
+  background-color: #417487;
+}
+
+
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+  margin-bottom: 0;
+  height: inherit;
+}
+
+.ui-widget > p {
+  margin-top: 5px;
+}
+
+.alert,.well{
+  margin-bottom: 10px;
+}
+
+.ui-dialog .ui-dialog-buttonpane button {
+  margin: 0.1em 0.4em 0 0;
+}
+
+.ui-dialog-buttonset button:hover,
+.ui-dialog-buttonset button.disabled,
+.ui-dialog-buttonset button[disabled] {
+  color: #333333;
+  text-decoration: none;
+  background-color: #e6e6e6;
+  *background-color: #d9d9d9;
+  /* Buttons in IE7 don't get borders, so darken on hover */
+
+  background-position: 0 -15px;
+  -webkit-transition: background-position 0.1s linear;
+     -moz-transition: background-position 0.1s linear;
+       -o-transition: background-position 0.1s linear;
+          transition: background-position 0.1s linear;
+}
+
+.input-append .add-on, .input-prepend .add-on {
+  height: 17px;
+}
+
+.ui-dialog-buttonset button {
+  border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background-color: #F5F5F5;
+
+  background-image: -webkit-linear-gradient(center top , #FFFFFF, #E6E6E6);
+  background-image: -moz-linear-gradient(center top , #FFFFFF, #E6E6E6);
+  background-image: -o-linear-gradient(center top , #FFFFFF, #E6E6E6);
+  background-image: -ms-linear-gradient(center top , #FFFFFF, #E6E6E6);
+  background-image: linear-gradient(center top , #FFFFFF, #E6E6E6);
+  background-repeat: repeat-x;
+  border-color: #E6E6E6 #E6E6E6 #A2A2A2;
+
+  -webkit-border-image: none;
+  -moz-border-image: none;
+  border-image: none;
+  border-radius: 4px 4px 4px 4px;
+  border-style: solid;
+  border-width: 1px;
+
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+  color: #333333;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 0;
+  padding: 4px 14px;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  vertical-align: middle;
+}
+
+
+label, input, button, select, textarea {
+  font-size: 12px;
+  line-height: 10px;
+}
+
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button {
+  font-size: 14px;
+}
+
+#menu:hover{
+  cursor: pointer;
+}
+
+.menu-modulo{
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.nav-item > li > a:hover {
+  background-color: #417487;
+  color: #fff;
+  text-shadow: inherit;
+}
+.ui-autocomplete {
+    max-height: 100px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-right: 20px;
+}
+
+input, textarea, select, .uneditable-input {
+  margin-bottom: 0px;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+h3, h4,h5 {
+  line-height: 10px;
+}
+
+button h3, button h4, button h5{
+ line-height: 0px;
+}
+
+.container-fluid {
+  margin-top: -15px;
+}
+
+.btn-group > .btn-large {
+  font-size: 12px;
+}
+
+.content_list a:hover h4{
+	background: none repeat scroll 0 0 #FDF5D9;
+}
+
+.margin3px {
+    line-height: 15px;
+    margin: 1px 4px;
+}
+
+.marginleft10px {
+    margin-left: 10px;
+}
+
+.marginleft15px {
+    margin-left: 15px;
+}
+
+.margintop-15 {
+    margin-top: -15px;
+}
+
+.left20px{
+  margin-left: 20px;
+}
+
+.left5px{
+  margin-left: 5px;
+}
+
+.right20px{
+  margin-right: 20px;
+}
+
+.paddingbottom20px{
+  padding-bottom: 20px;
+}
+
+.paddingbottom5px{
+  padding-bottom: 5px;
+}
+
+.margin5pxall{
+  margin: 5px;
+}
+
+.margin0pxall{
+  margin: 0px;
+}
+
+.right{
+	float: right;
+}
+
+.left{
+  float: left;
+}
+
+.ui-box{
+  border: 1px solid #DDDDDD;
+  border-radius: 4px 4px 4px 4px;
+  box-shadow: 0 0 3px #DDDDDD;
+}
+
+.content_list .project .project_name{
+  padding-left: 10px;
+}
+
+.content_list .project .project_name i{
+  margin-top: 2px;
+}
+
+.ui-box h5, .ui-box .title {
+    background: none repeat scroll 0 0 #F5F5F5;
+    border-bottom: 1px solid #EEEEEE;
+    border-top: 1px solid #EEEEEE;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    padding: 0 10px;
+}
+
+.ui-box-projetos{
+	width: 300px;
+  margin-right: 20px;
+}
+
+.ui-box h4, .ui-box h5, .ui-box h6 {
+    line-height: 35px;
+}
+
+.btn.very_small, .commit-box .commit-head .very_small.browse-button {
+    font-size: 11px;
+    margin: 2px;
+    padding: 4px;
+}
+
+.subnav {
+    background-color: #EEEEEE;
+    background-image: -moz-linear-gradient(center top , #F5F5F5 0%, #EEEEEE 100%);
+    background-repeat: repeat-x;
+    border: 1px solid #E5E5E5;
+    border-radius: 4px 4px 4px 4px;
+    height: 36px;
+    width: 100%;
+}
+
+.subnav .nav {
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+
+.subnav .nav > li > a {
+    border-left: 1px solid #F5F5F5;
+    border-radius: 0 0 0 0;
+    border-right: 1px solid #E5E5E5;
+    margin: 0;
+    padding-bottom: 11px;
+    padding-top: 11px;
+}
+
+.subnav .nav > .active > a, .subnav .nav > .active > a:hover {
+    background-color: #E9E9E9;
+    border-left: 0 none;
+    border-right-color: #DDDDDD;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.05) inset;
+    color: #777777;
+    padding-left: 13px;
+}
+
+.subnav .nav > li > a:hover {
+  color: #005580;
+  background-color: #EEEEEE;
+  text-decoration: none;
+}
+
+
+.task-item h4{
+  height: 45px;
+  color: #DDD;
+}
+
+.task-item span{
+  margin-top: -20px;
+}
+
+.update-author {
+    clear: both;
+    color: #999999;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.wll {
+    cursor: pointer;
+}
+
+#issues-table{
+    margin-bottom: 0;  
+}
+
+#issues-table li .row_title {
+    margin-top: -3px;
+    padding: 1px;
+}
+
+.ui-box .row_title {
+    color: #444444;
+    font-weight: bold;
+}
+
+.wll p {
+    color: #222222;
+    margin-bottom: 0;
+}
+
+.wll p {
+    color: #474D57;
+    margin: 0;
+    padding-top: 5px;
+}
+
+.wll:hover {
+    background: none repeat scroll 0 0 #EEE;
+}
+
+.wll:last-child {
+    border: medium none;
+}
+
+.ui-box li:last-child, .ui-box .wll:last-child {
+    border: medium none;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.ui-box .bottom {
+    background: none repeat scroll 0 0 #F5F5F5;
+    border-bottom: medium none;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top: 1px solid #EAEAEA;
+}
+
+.ui-box li, .ui-box .wll {
+    padding: 10px;
+}
+
+.append-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.height20px {
+    background: -moz-linear-gradient(#E2E2E2, #D8D8D8) repeat scroll 0 0 transparent;
+    height: 20px;
+    margin-bottom: 0;
+    width: 100px;
+}
+
+.main_box .middle_box_content, .commit-box .middle_box_content, .main_box .commit-box .commit-info, .commit-box .main_box .commit-info, .commit-box .commit-info {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #F5F5F5;
+    border-color: #EEEEEE -moz-use-text-color -moz-use-text-color;
+    border-radius: 0 0 0 0;
+    border-right: medium none;
+    border-style: solid none none;
+    border-width: 1px medium medium;
+    font-size: 12px;
+}
+
+.main_box .bottom_box_content, .commit-box .bottom_box_content {
+    border-top: 1px solid #EEEEEE;
+}
+
+.navmargin-18 {
+    margin-bottom: -1px;
+}
+
+.borders, .main_box, .commit-box {
+    border: 1px solid #CCCCCC;
+    box-shadow: 0 0 3px #DDDDDD;
+}
+
+.main_box .top_box_content, .commit-box .top_box_content, .main_box .commit-box .commit-head, .commit-box .main_box .commit-head, .commit-box .commit-head, .main_box .middle_box_content, .commit-box .middle_box_content, .main_box .commit-box .commit-info, .commit-box .main_box .commit-info, .commit-box .commit-info, .main_box .bottom_box_content, .commit-box .bottom_box_content {
+    padding: 10px;
+}
+
+.note-box {
+    margin-right: 15px;
+}
+
+.issue_status {
+    color: #FFFFFF;
+    font-size: 23.998px;
+    font-weight: bold;
+    line-height: 34px;
+    text-align: center;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.25);
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 100px;
+}
+
+.milestoneitem {
+    height: 50px;
+}
+
+.progress {
+    background-color: #F6F6F6;
+    background-image: -moz-linear-gradient(center top , #F5F5F5, #F9F9F9);
+    background-repeat: repeat-x;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+    height: 18px;
+    margin-bottom: 18px;
+    overflow: hidden;
+}
+
+.milestoneheight {
+    background: -moz-linear-gradient(#E2E2E2, #D8D8D8) repeat scroll 0 0 transparent;
+    height: 34px;
+    margin-bottom: 0;
+}
+
+.milestoneheight .bar {
+    color: #FFFFFF;
+    font-size: 23.998px;
+    font-weight: bold;
+    line-height: 34px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.25);
+    white-space: nowrap;
+}
+
+.nav-dependencias > li > a {
+  border-radius: 0;
+  font-size: 11px;
+}
+
+.center{
+  text-align: center;
+}
+
+.k-state-selected, .k-list > .k-state-selected, .k-list > .k-state-focused, .k-panelbar > .k-state-selected, .k-panel > .k-state-selected, .k-button:active, .k-ghost-splitbar-vertical, .k-ghost-splitbar-horizontal, .k-draghandle.k-state-selected:hover {
+  background-color: #c6c6c6;
+  border-color: #c9c9c9;
+  color: inherit;
+  font-weight: bold;
+}
+
+.jqx-checkbox{
+  margin: 5px 0 0 -3px;
+}
+
+.tooltip, .tooltip-inner{
+  z-index: 11000;
+}
+
+.table{
+  margin-bottom: 0;
+}
